@@ -14,7 +14,7 @@ namespace LessonBasket.iOS
             base.ViewDidLoad();
 
             Title = "Login";
-            View.BackgroundColor = UIColor.White;
+            View.BackgroundColor = UIColor.FromHSB(UIConstants.BackgroundColorHue, UIConstants.BackgroundColorSaturation, UIConstants.BackgroundColorBrightness);
 
             var username = new UITextField
             {
