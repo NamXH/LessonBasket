@@ -6,6 +6,7 @@ namespace LessonBasket.iOS
     {
         // Note: use const instead of static readonly because EasyLayout.cs doesn't accept static readonly.
         // The consumer of this class is in the same assembly (since it is a Shared Project) so const is ok.
+
         public const float BorderWidth = 1;
         public const float CornerRadius = 5;
 
@@ -13,6 +14,7 @@ namespace LessonBasket.iOS
         public const float VerticalPad = 30;
 
         public const float ControlsHeight = 40;
+        public const float MaximumControlsWidth = 400;
 
         public const float NormalFontSize = 16;
 
