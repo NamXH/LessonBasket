@@ -96,6 +96,7 @@
     <Compile Include="LoginViewController.cs" />
     <Compile Include="Utilities\EasyLayout.cs" />
     <Compile Include="AbcViewController.cs" />
+    <Compile Include="Utilities\UIConstants.cs" />
   </ItemGroup>
   <Import Project="..\LessonBasket\LessonBasket.projitems" Label="Shared" Condition="Exists('..\LessonBasket\LessonBasket.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
